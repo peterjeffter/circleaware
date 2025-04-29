@@ -20,6 +20,7 @@ menuBtn.addEventListener('click', () => {
   getInvolved.classList.toggle('show');
 });
 
+// 
 
 document.querySelectorAll('.discont').forEach(container => {
   const readMore = document.createElement('div');
@@ -27,9 +28,25 @@ document.querySelectorAll('.discont').forEach(container => {
   readMore.textContent = 'Read more';
 
   const icon = document.createElement('i');
-  icon.className = 'fa-solid fa-play fa-sm  cont-read';
-  
+  icon.className = 'fa-solid fa-play fa-sm cont-read';
   readMore.appendChild(icon);
+  
   container.appendChild(readMore);
-});
 
+  const text = container.querySelector('.textdes');
+  if (text) {
+    text.style.display = 'none';
+
+    readMore.addEventListener('click', () => {
+      const isVisible = text.style.display === 'block';
+      text.style.display = isVisible ? 'none' : 'block';
+
+      // Toggle label and icon direction
+      readMore.firstChild.textContent = isVisible ? 'Read more' : 'Close';
+
+      // Optional: rotate icon if needed
+      icon.style.transform = isVisible ? 'rotate(0deg)' : 'rotate(90deg)';
+    });
+  }
+});
+//
