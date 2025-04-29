@@ -1,560 +1,89 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    height: fit-content;
-    background-color: #e1e7e1;
-    overflow-x: hidden;
-    font-family: "Dosis", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-}
-h1{
-    font-size: 35px;
-    margin-bottom: 1rem;
-}
-.missionwrite{
-    width: 400px;
-    line-height: 70px;
-    margin-bottom: 0;
-}
-.logo-div{
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.logo-div span{
-    align-self: center;
-}
-.logo-div img{
-    width: 70px;
-    margin-right: 10px;
-}
-.header{
-    width: 100%;
-    height: 10vh;
-    background-color: #e1e7e1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-bottom: 3px;
-    white-space: nowrap;
-    color: black;
-    font-weight: 500;
-}
-.menu-btn{
-    display: none;
-}
-.right-side{
-    display: flex;
-    flex-direction: row;
-    width: 15%;
-    justify-content: space-between;
-    align-items: flex-end;
-    align-self: last baseline;
-}
-.right-side span:hover{
-    color: #004e64;
-}
-.slideshow{
-    background-color: rgba(138, 114, 114, 0.37);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>about us</title>
+    <link rel="stylesheet" href="aboutus.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo-div">
+            <img src="Circle awareness logo.png">
+            <span>CIRCLE CLIMATE <br> CHANGE AWARENESS</span>
+        </div>
+
+
+    </div>
+    <section id="get-involved" class="getinvolved">
+        <a class="about-tag">ABOUT US</a>
+        <a href="index.html" class="hometag">HOME</a>
+        <a href="ourwork.html" class="ourwork">OUR WORK</a>
+       <a class="getintouch">GET-INVOLVED</a>
+    </section>
+    <section class="about">
+        <span class="history">OUR HISTORY</span>
+        <div class="aboutcircle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu sem integer vitae justo eget magna fermentum iaculis. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Ultricies lacus sed turpis tincidunt id aliquet risus feugiat in. Consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat. At imperdiet dui accumsan sit amet nulla facilisi morbi. Sem fringilla ut morbi tincidunt augue interdum velit euismod in. Nunc sed velit dignissim sodales ut eu sem integer vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+
+        </div>
+    </section>
+    <section class="team">
+        <h3 class="teamheader">THE TEAM</h3>
+        <div class="person">
+            <img src="woman.png" alt="">
+            <span class="name">Doris Emeruem</span>
+            <span class="position">CEO</span>
+        </div>
+
+        <div class="person">
+            <img src="woman.png" alt="">
+            <span class="name">Doris Emeruem</span>
+            <span class="position">CEO</span>
+        </div>
+
+        <div class="person">
+            <img src="woman.png" alt="">
+            <span class="name">Doris Emeruem</span>
+            <span class="position">CEO</span>
+        </div>
+    </section>
+
+    <div class="backtotop"></div>
     
-    height: 90vh;
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    margin-right: 5%;
-    margin-left: 5%;
-}
-.slideshow img{
-    width: 100%;
-    height: 100%;
-}
-.line{
-    width: 90%;
-    border: solid 0.5px  #7d7c7c;
-    margin-top: 150px;
-    
-    overflow: hidden;
-    margin-left: 5%;
-}
-.line1{
-    width: 90%;
-    border: solid 0.5px  #7d7c7c;
-    overflow: hidden;
-    margin-top: 150px;
-    margin-left: 5%;
-    
-}
+    <footer>
+        <section class="circle">
+            <h3>CIRCLE</h3>
+            <span>
+                Circle is a climate awareness group focused on inspiring individuals and communities to takae meaningful
+                action in combating climate change
+            </span>
+            <button class="contact-btn">Contact Us</button>
+        </section>
 
-.getinvolved a{
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    font-size: 17px;
-    text-align: center;
-}
-.getinvolved a:hover{
-    text-decoration: underline;
-}
-.getinvolved{
-    background-color: rgba(202, 185, 185, 0.178);
-    padding: 1rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-}
-.donate{
-    height: 30px;
-    color: white;
-    background-color: #2f6b3a;
-    border: none;
-    padding: 5px;
-    cursor: pointer;
-}
-
-.objectives, .mission{
-    display: flex;
-    flex-direction: column;
-    padding-right: 5%;
-    padding-left: 5%;
-    position: relative;
-   
-    padding-top: 50px;
-    color: #004e64;
-    font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 5vh;
-}
-
-h2{
-    margin-bottom: 2rem; 
-    text-align: center;
-    font-size: 35px;
-}
-
-
-.details{
-    height: fit-content;
-    display: flex;
-    justify-content: space-between;
-    font-size: 25px;
-    
-}
-
-.details img{
-    width: 50%;
-}
-.objwrite p{
-    margin-bottom: 20px;
-
-}
-.latest-stories{
-    display: grid;
-    grid-template-columns:25% 25% 25% ;
-    position: relative;
-    justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
-    row-gap: 15%;
-    padding-top: 150px;
-}
-.latest-stories h3{
-    position: absolute;
-    top: 0;
-    left: 0%;
-    color: #004e64;
-    font-size: 30px;
-}
-.image-dis img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px 10px 0 0;
-}
-
-.story{
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    min-width:250px;
-    color: white;
-    justify-content: center;
-    gap:0;
-}
-.text-dis{
-    background-color: rgb(39, 38, 38);
-    height: fit-content;
-    padding: 10px;
-    border-radius: 0  0 10px  10px ;
-    font-size: 23px;
-}
-.viewmore{
-    position: absolute;
-    bottom: -30px;
-    right: 0;
-    font-style: italic;
-    text-decoration: underline;
-    color: #004e64;
-}
-footer{
-    background-color: #7d7c7c;
-    color: #e1e7e1;
-    height: 320px;
-    padding-right: 5%;
-    padding-left: 5%;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-}
-.circle h3{
-    border-bottom: 1px solid ;
-    padding-bottom: 5px;
-    font-size: 30px;
-}
-.circle{
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    height: 240px;
-    justify-content: space-between;
-    background-image: url(Circle\ awareness\ logo.png);
-    background-size: contain;
-    background-blend-mode:soft-light;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 23px;
-}
-.contact-btn{
-   
-
-    background: linear-gradient(135deg,#5f8f05,#70ff88, #ffd06b, #a3c455);
-  background-size: 300% 300%;
-  animation: gradientShift 6s ease infinite;
-  color: #fff;
-  border: none;
-  padding: 12px 24px;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 12px;
-  cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.copyright{
-    margin-top: 10px;
-    font-size: 18px;
-}
-.right-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-}
-.right-footer img{
-    width: 32px;
-}
-.socialmedia{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 150px;
-    margin-top: 2%;
-}
-.cpr{
-    display: flex;
-    align-items: center;
-}
-.cpr i{
-    margin-right: 1%;
-}
-.backtotop{
-    border-bottom:solid 3px #ffc107 ;
-    display: flex;
-    justify-content: end;
-}
-.backtotop div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: yellow;
-    width: 30px;
-    height: 20px;
-    margin-right: 8%;
-    color: rgb(104, 131, 99);
-}
-.newsletter{
-    color: black;
-    display: flex;
-    flex-direction: column; 
-    margin-bottom: 80px;
-    width: 100%; 
-}
-
-.input-div{
-    display: flex;
-    justify-content: center;
-}
-.input-div input{
-   
-    border: none;
-    width: 60%;
-    height: 60px;
-    padding-left: 1%;
-    padding: 1%;
-}
-.input-div input::placeholder{
-    font-size: 20px;
-}
-.input-div button{
-    color: white;
-    background-color: #ffc107;
-    border: none;
-    height: 60px;
-    width: fit-content;
-    cursor: pointer;
-    padding: 1%;
-    font-size: 20px;
-}
-.readmore{
-    display: none;
-}
-
-@media (max-width: 750px) {
-
-    .line1{
-        margin-bottom: 10%;
-    }
-    .logoheader{
-        font-size:20px;
-    }
-    .menu-btn{
-        display: block;
-        position: absolute;
-        right: 2%;
-    }
-    .input-div input{
-        width: 70%;
-        height: 25px;
+        <section class="right-footer">
+            <div class="socialmedia">
+                <img src="social.png" alt="">
+                <img src="twitter (1).png" alt="">
+                <img src="social.png" alt="">
+                <img src="facebook (1).png" alt="">
+            </div>  
+            <div class="copyright">
+                <p class="cpr"><i class="fa-regular fa-copyright fa-sm" style="color: #ffffff;"></i>Copyright</p>
+                <p>Privacy Policy</p>
+                    
+                <p class="mail">Contact: administration@circleawareness.org</p>
         
-    }
-    .input-div input::placeholder{
-        font-size: 12px;
-    }
-    .input-div button{
-        height: 25px;
-        display: flex;
-        align-items: center;
-        font-size: 12px;
-    }
-
-    .slideshow{
-       margin: 0;
-        background-image:url(ACT\ NOW\ mobile.png);
-        background-size: cover;
-
-    }
-    .slideshow img{
-        display: none;
-    }
-    .header{
-        flex-direction: column;
-        position: relative;
-        overflow: hidden;
-        justify-content: center;
-    }
-    
-    
-    .donate{
-        display: none;
-       
-    }
-    .details{
-        display: flex;
-        flex-direction: column;
-        height: fit-content;
-    
-    }
-    
-    .details img{
-        display: none;
-    }
-
-    .objectives, .mission{
-        margin-top: 20px;
-       align-items: center;
-       overflow: hidden;
+        </section>
       
-       
-    }
-    .cont-read{
-        margin-left: 5px;
-        align-self:center;
-        margin-top: 3px;
-        color: rgb(224, 221, 221);
-    }
-    .readmore{
-        background-color: #004e64;
-        width: fit-content;
-        padding-right: 3%;
-        height: 15px;
-        display: flex;
-        align-items: center;
-        color: white;
-        cursor: pointer;
-        font-size: 10px;
-        font-style: italic;
-        margin-left: 5%;
-    }
-    
-    .missionwrite {
-        line-height: 25px;
-        text-align: center;
-        padding: 2rem;
-        font-size: 17px;
-    }
-    .objwrite{
-        font-size: 17px;
-    }
-    .objwrite span{
-        display: none;
-    }
-    
-    .story{
-        width: 300px;
-    }
-    
-    .newsletter h2{
-        margin-bottom: 0;
-    }
-    .getinvolved a{
-        font-size: 15px;
-        background-color: rgba(216, 187, 21, 0.479);
-        text-decoration: none;
-    }
-    .getinvolved{
-        background: none;
-        display: flex;
-        flex-direction: column;
-        width: fit-content;
-        padding: 0.5rem;
-        position: absolute;
-        right: 0;
-        gap: 5px;
-        margin-left: 72%;
-
-        max-height: 0;
-        opacity: 0;
-        overflow: hidden;
-        transition: all 0.4s ease;
-    }
-
-    .getinvolved.show {
-        max-height: fit-content;
-        opacity: 1;
-        padding: 10px;
-        z-index: 1000;
-      }
-      
-    .latest-stories h3{
-       position: relative;
-       left: 0;
-       right: 0;
-    }
-    footer{
-       padding-right: 10%;
-       padding-left: 10%;
-       flex-direction: column;
-    }
-   .circle{
-    width: 55%;
-    font-size: 17px;
-    font-weight: 300;
-   }
-   .mail{
-    display: block;
-    border: none;
-   }
-   
-   .latest-stories{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-            row-gap: 50px;
-      }
-    
-    .story{
-        width: 300px;
-
-    }
-    .socialmedia{
-        position: absolute;
-        top:5%;
-    }
-   .copyright{
-        position:absolute ;
-        left: 10%;
-        bottom: 3%;
-        font-size: 11px;
-        
-   }
-   .viewmore{
-    right: 5%;
-   }
-   .discont .textdes {
-    transition: all 0.3s ease;
-    margin-top: 8px;
-    font-size: 13px;
-    margin-left: 5%;
-  }
-  .objwrite h4{
-    margin-left: 5%;
-  }
-  .contact-btn{
-    font-size: 15px;
-  }
-}
-
-
-/*animations*/
-/* Default: Hidden state */
-.hidden {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 0.6s ease-out;
-  }
-  
-  /* When element is in view */
-  .show {
-    opacity: 1;
-    transform: translateY(0);
-    overflow-x: hidden;
-  }
-  
-  /* Slide from left */
-  .slide-in-left {
-    transform: translateX(-10px);
-  }
-  
-  .slide-in-left.show {
-    transform: translateX(0);
-  }
-  
-  /* Slide from right */
-  .slide-in-right {
-    transform: translateX(50px);
-  }
-  
-  .slide-in-right.show {
-    transform: translateX(0);
-  }
+    </footer>
+</body>
+</html>
