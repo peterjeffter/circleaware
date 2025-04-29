@@ -309,7 +309,9 @@ footer{
 }
 
 @media (max-width: 750px) {
-    
+    .logoheader{
+        font-size:20px;
+    }
     .menu-btn{
         display: block;
         position: absolute;
@@ -332,7 +334,7 @@ footer{
 
     .slideshow{
        margin: 0;
-        background-image: url(ACT\ NOW\ mobile.png);
+        background-image:url(ACT\ NOW\ mobile.png);
         background-size: cover;
 
     }
