@@ -238,4 +238,7 @@ footer{
    position: absolute;
    left: 40%;
    }
+     .contact-btn{
+    font-size: 15px;
+  }
 }
