@@ -71,11 +71,11 @@ h1{
 .getinvolved{
     padding-left: 5%;
     padding-right: 5%;
-    margin-top: 5vh;
     color: white;
     display: flex;
     justify-content: space-between;
     z-index: 1000;
+    margin-bottom: 3vh;
 }
 .donate{
     height: 30px;
@@ -86,7 +86,7 @@ h1{
     cursor: pointer;
 }
 .aboutcircle{
-    margin-top: 20vh;
+    margin-top: 2vh;
     padding-left: 5%;
     padding-right: 5%;
     font-size: 25px;
@@ -191,6 +191,12 @@ footer{
 .cpr i{
     margin-right: 1%;
 }
+.history{
+    color:#053c4b ;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 5%;
+}
 @media (max-width: 750px) {
     footer{
         padding-right: 10%;
@@ -218,7 +224,13 @@ footer{
     
    }
    .getinvolved a{
-    
+        font-size: 13px;
    }
-
+   .logo-div span{
+    display: none;
+   }
+   .logo-div img{
+   position: absolute;
+   left: 40%;
+   }
 }
