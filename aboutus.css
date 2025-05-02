@@ -207,6 +207,7 @@ footer{
         padding-right: 10%;
         padding-left: 10%;
         flex-direction: column;
+        padding-bottom: 10%;
      }
     .circle{
      width: 50%;
@@ -238,5 +239,9 @@ footer{
    position: absolute;
    left: 40%;
    }
+   .contact-btn{
+    font-size: 15px;
+    margin-bottom: 10%;
+  }
    
 }
