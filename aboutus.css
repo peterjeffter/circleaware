@@ -220,7 +220,7 @@ footer{
    .copyright{
         position:absolute ;
         left: 10%;
-        bottom: 0.5%;
+        bottom: 0;
         font-size: 11px;
         
    }
