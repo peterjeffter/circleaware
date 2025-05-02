@@ -57,7 +57,9 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
         </div>
     </section>
 
-    <div class="backtotop"></div>
+    <div id="backToTop" class="backtotop">
+        <div ><i class="fa-solid fa-jet-fighter-up"></i></div>
+    </div>
     
     <footer>
         <section class="circle">
@@ -86,4 +88,25 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
       
     </footer>
 </body>
+<script>
+    
+document.addEventListener("DOMContentLoaded", () => {
+  const backToTopBtn = document.getElementById("backToTop");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      backToTopBtn.classList.add("show");
+    } else {
+      backToTopBtn.classList.remove("show");
+    }
+  });
+
+  backToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+});
+</script>
 </html>
