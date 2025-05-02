@@ -9,7 +9,7 @@ body{
     overflow-x: hidden;
     font-family: "Dosis", serif;
     font-optical-sizing: auto;
-    
+    padding: 0;
     font-style: normal;
 }
 h1{
@@ -130,7 +130,6 @@ h1{
     padding-right: 5%;
     padding-left: 5%;
     position: relative;
-   
     padding-top: 50px;
     color: #004e64;
     font-weight: 500;
@@ -542,31 +541,37 @@ footer{
 /* Default: Hidden state */
 .hidden {
     opacity: 0;
-    transform: translateY(50px);
-    transition: all 0.6s ease-out;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   }
   
   /* When element is in view */
   .show {
     opacity: 1;
     transform: translateY(0);
-    overflow-x: hidden;
   }
   
   /* Slide from left */
   .slide-in-left {
-    transform: translateX(-10px);
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   }
   
   .slide-in-left.show {
+    opacity: 1;
     transform: translateX(0);
   }
   
   /* Slide from right */
   .slide-in-right {
-    transform: translateX(50px);
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   }
   
   .slide-in-right.show {
+    opacity: 1;
     transform: translateX(0);
   }
+  
