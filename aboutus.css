@@ -90,6 +90,10 @@ h1{
     padding-left: 5%;
     padding-right: 5%;
     font-size: 25px;
+    
+}
+.about{
+    text-align: center;
 }
 .team{
     display: flex;
