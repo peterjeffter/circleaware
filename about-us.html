@@ -23,7 +23,7 @@
         <a class="about-tag">ABOUT US</a>
         <a href="index.html" class="hometag">HOME</a>
         <a href="ourwork.html" class="ourwork">OUR WORK</a>
-       <a class="getintouch">GET-INVOLVED</a>
+       <a href="donate.html" class="getintouch">GET-INVOLVED</a>
     </section>
     <section class="about">
         <span class="history">OUR HISTORY</span>
@@ -88,25 +88,5 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
       
     </footer>
 </body>
-<script>
-    
-document.addEventListener("DOMContentLoaded", () => {
-  const backToTopBtn = document.getElementById("backToTop");
-
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) {
-      backToTopBtn.classList.add("show");
-    } else {
-      backToTopBtn.classList.remove("show");
-    }
-  });
-
-  backToTopBtn.addEventListener("click", () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  });
-});
-</script>
+<script src="back2top.js"></script>
 </html>

@@ -106,6 +106,7 @@ h1{
     margin-right: 5%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.397);
    position: relative;
+   margin-top: 5vh;
 }
 .banner{
     width: 65%;
@@ -118,6 +119,7 @@ h1{
     padding-top: 5%;
     padding-right: 5%;
     line-height: 30px;
+    text-align: center;
 }
 .see-more{
     position: absolute;
@@ -125,7 +127,10 @@ h1{
     bottom: 10%;
     cursor: pointer;
 }
-
+.see-more :hover{
+    border-radius: 50%;
+    background-color: grey;
+}
 footer{
     background-color: #7d7c7c;
     color: #e1e7e1;
@@ -215,8 +220,7 @@ footer{
 }
 @media (max-width: 750px) {
     .our-work{
-        flex-direction: column;
-        
+        flex-direction: column; 
     }
     .banner{
         width: 100%;
@@ -227,6 +231,11 @@ footer{
         height: 50vh;
         padding: 1rem;
         overflow:hidden;
+        font-size: 18px;
+    }
+    .see-more{
+        bottom: 6%;
+        right: 10%;
     }
     
     .getinvolved a{
