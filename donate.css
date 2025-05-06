@@ -90,13 +90,34 @@ h1{
     z-index: 1000;
 }
 .mid-img{
-    width: 100%;
-    height: 100vh;
+    width: 50%;
+    height: 60vh;
 }
 .donate-sec{
     margin-left: 5%;
     margin-right: 5%;
-    font-size: 20px;
+    padding-top: 25vh;
+    display: flex;
+    position: relative;
+}
+.text{
+    width: 50%;
+    padding: 2rem;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10%;
+}
+.text span{
+    font-weight: 600;
+}
+h1{
+    position: absolute;
+    top: 8%;
+    left: 52%;
+    font-size: 55px;
+    font-weight: 500;
 }
 @media (max-width: 750px) {
 .getinvolved a{
@@ -114,7 +135,5 @@ h1{
     display: flex;
     flex-direction: column;
 }
-.donate-sec span{
-    width: 80%;
-}
+
 }

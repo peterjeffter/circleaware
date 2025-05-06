@@ -77,24 +77,15 @@ h1{
     z-index: 1000;
     margin-bottom: 3vh;
 }
-.donate{
-    height: 30px;
-    color: white;
-    background-color: #2f6b3a;
-    border: none;
-    padding: 5px;
-    cursor: pointer;
-}
+
 .aboutcircle{
-    margin-top: 2vh;
+    margin-top: 5vh;
     padding-left: 5%;
     padding-right: 5%;
     font-size: 25px;
     
 }
-.about{
-    text-align: center;
-}
+
 .team{
     display: flex;
     padding-left: 5%;
@@ -124,6 +115,8 @@ h1{
     position: absolute;
     top: 30%;
     font-size: 40px;
+    font-weight: 600;
+    color:#053c4b ;
 }
 
 .backtotop{
@@ -215,9 +208,10 @@ footer{
 }
 .history{
     color:#053c4b ;
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 600;
     margin-left: 5%;
+    margin-top: 5vh;
 }
 @media (max-width: 750px) {
     footer{
