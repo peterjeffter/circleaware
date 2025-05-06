@@ -13,6 +13,7 @@ body{
     font-weight: 300;
     font-style: normal;
     color: #004e64;
+    padding-bottom: 100px;
 }
 h1{
     font-size: 35px;
@@ -103,14 +104,20 @@ h1{
 .text{
     width: 50%;
     padding: 2rem;
-    font-size: 28px;
+    
     display: flex;
     flex-direction: column;
-    
-    gap: 10%;
+    color: black;
+    gap: 6.3%;
+}
+.text p{
+    font-size: 25px;
+    margin-bottom: 0;
 }
 .text span{
+    font-size: 30px;
     font-weight: 600;
+    color: #004e64;
 }
 h1{
     position: absolute;
@@ -119,6 +126,28 @@ h1{
     font-size: 55px;
     font-weight: 500;
 }
+.putmoney{
+    width: 100%;
+
+    display: flex;
+}
+.putmoney input{
+    width: 50%;
+    height: 50px;
+    padding-left: 1%;
+}
+.putmoney button{
+    width: 50%;
+    height: 50px;
+    background: linear-gradient(135deg,#5f8f05,#70ff88, #ffd06b, #a3c455);
+    background-size: 300% 300%;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
 @media (max-width: 750px) {
 .getinvolved a{
     font-size: 13px;
@@ -130,10 +159,27 @@ h1{
     position: absolute;
     left: 40%;
     }
+
+
 .donate-sec{
     margin-right: 5%;
-    display: flex;
     flex-direction: column;
+    padding-top: 15vh;
 }
-
+.mid-img{
+    width: 100%;
+    height: 200px;
+}
+.text{
+    width: 100%;
+    padding: 0;
+}
+h1{
+    top: 2%;
+    left: 0;
+    font-size: 40px;
+}
+.putmoney{
+    margin-top: 4%;
+}
 }

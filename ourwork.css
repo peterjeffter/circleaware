@@ -124,16 +124,13 @@ h1{
     padding-right: 5%;
     line-height: 30px;
     text-align: center;
+    color: black;
 }
 .see-more{
     position: absolute;
     right: 3%;
     bottom: 10%;
     cursor: pointer;
-}
-.see-more :hover{
-    border-radius: 50%;
-    background-color: grey;
 }
 footer{
     background-color: #7d7c7c;
@@ -283,4 +280,12 @@ footer{
     font-size: 15px;
     margin-bottom: 10%;
   } 
+  .brief{
+    width: 90%;
+    height: 35vh;
+  }
+  .brief span{
+    
+    font-size: 23px;
+  }
 }
