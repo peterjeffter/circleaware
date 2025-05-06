@@ -215,8 +215,8 @@ footer{
 }
 @media (max-width: 750px) {
     footer{
-        padding-right: 10%;
-        padding-left: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
         flex-direction: column;
         
      }
@@ -230,7 +230,7 @@ footer{
     }
    .copyright{
         position:absolute ;
-        left: 10%;
+        left: 5%;
         bottom: 0;
         font-size: 11px;
         
