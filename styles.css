@@ -9,7 +9,6 @@ body{
     overflow-x: hidden;
     font-family: "Dosis", serif;
     font-optical-sizing: auto;
-    padding: 0;
     font-style: normal;
 }
 h1{
@@ -76,23 +75,17 @@ h1{
 .slideshow img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 .line{
     width: 90%;
     border: solid 0.5px  #7d7c7c;
-    margin-top: 150px;
     
-    overflow: hidden;
     margin-left: 5%;
-}
-.line1{
-    width: 90%;
-    border: solid 0.5px  #7d7c7c;
+   
     overflow: hidden;
-    margin-top: 150px;
-    margin-left: 5%;
-    
 }
+
 
 .getinvolved a{
     text-decoration: none;
@@ -115,14 +108,6 @@ h1{
     display: flex;
     justify-content: space-between;
 }
-.donate{
-    height: 30px;
-    color: white;
-    background-color: #2f6b3a;
-    border: none;
-    padding: 5px;
-    cursor: pointer;
-}
 
 .objectives, .mission{
     display: flex;
@@ -130,11 +115,9 @@ h1{
     padding-right: 5%;
     padding-left: 5%;
     position: relative;
-    padding-top: 50px;
     color: #004e64;
     font-weight: 500;
     line-height: 30px;
-    margin-bottom: 5vh;
 }
 
 h2{
@@ -167,7 +150,8 @@ h2{
     margin-left: 5%;
     margin-right: 5%;
     row-gap: 15%;
-    padding-top: 150px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 .latest-stories h3{
     position: absolute;
@@ -297,7 +281,6 @@ footer{
     color: black;
     display: flex;
     flex-direction: column; 
-    margin-bottom: 80px;
     width: 100%; 
 }
 
@@ -342,9 +325,7 @@ footer{
 
 @media (max-width: 800px) {
 
-    .line1{
-        margin-bottom: 0;
-    }
+    
     .logoheader{
         font-size:20px;
     }
@@ -401,7 +382,7 @@ footer{
     }
 
     .objectives, .mission{
-        margin-top: 20px;
+
        align-items: center;
        overflow: hidden;
       
